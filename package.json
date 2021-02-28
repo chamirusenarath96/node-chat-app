@@ -2,9 +2,9 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server/servert.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node server/servert.js",
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
